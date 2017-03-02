@@ -1,0 +1,23 @@
+
+body{
+	font-family: helvetica;
+	color: #FFFFFF;
+	background-color: #444444;
+}
+
+
+#space {
+	width:640px;
+	height: 480px;
+	position: relative;
+	overflow: hidden;
+}
+
+img {
+	position: absolute;
+}
+
+#sandy {
+	top: 100px;
+	left: 300px;
+}
