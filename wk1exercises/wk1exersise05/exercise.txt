@@ -1,0 +1,1 @@
+Use the template you made in the previous exercise for this exercise. In the JavaScript file, make a new variable named firstName and assign your own first name as it’s value. Then create an alert box that shows the value of the variable firstName.

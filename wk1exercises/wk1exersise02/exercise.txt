@@ -1,0 +1,10 @@
+Make a JavaScript webpage of a nursery-rhyme from your country. Create a HTML-file with the appropriate html5 tags. No CSS is needed for this exercise. The head should contain a title and the body should contain a h1-tag. At the end of the body, include a script that shows several alertboxes containing the lyrics to a nursery-rhyme from your country. Make sure each line of the rhyme is shown in a separate alert box. If you really can’t think of a nursery-rhyme from your own country, you can use the Dutch nursery-rhyme below. 
+
+
+
+- Altijd is Kortjakje ziek
+- Midden in de week maar zondags niet
+- Zondags gaat zij naar de kerk
+- Met een boek vol zilverwerk
+- Altijd is Kortjakje ziek
+- Midden in de week maar zondags niet

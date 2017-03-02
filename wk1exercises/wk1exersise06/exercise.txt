@@ -1,0 +1,7 @@
+Use the template you made in the previous exercise for this exercise. In the JavaScript file, make three new variables named number1, number2 and result.
+Assign number values to the variable number1 and number2. You can choose the value yourself. 
+number1 and number2 will de added to each other and assigned to variable result. use the plus-sign (+) for addition.
+Finally create an alert box that shows the value of the variable result and run the code in the browser to check if it works.
+
+Once this works, change the code to work with the arithmetic operators: subtract (-), multiply (*) and division (/).
+

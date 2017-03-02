@@ -1,0 +1,18 @@
+In this exercise you will make a project template to use for your future JavaScript projects.
+
+Make a folder named template. Within this folder you will place a file named index.html with the appropriate html inside and 3 other folders named images, scripts and styles. Keep the images folder empty. 
+In the scripts folder, place a file named main.js and link to it at the end of the body in index.html.
+In the styles folder, include a file named mystyle.css and link to this in the head of your index.html file.
+
+the entire project-folder will look like this:
+
+📂 template
+	⎿ 📝 index.html
+	⎿ 📂 images
+	⎿ 📂 scripts
+		⎿ 📝 main.js
+	⎿ 📂 styles
+		⎿ 📝 mystyle.css
+
+
+Once you completed this project template, copy it to a convenient location on your harddrive. For all your future JavaScript projects, you can simply make a copy of this template and use it as a starting point.

@@ -1,0 +1,1 @@
+In the main.js file you will find some code. Lines 5, 6 and 7 can be written shorter. Rewrite this code in the shortest possible way.

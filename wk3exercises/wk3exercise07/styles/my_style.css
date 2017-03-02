@@ -1,0 +1,10 @@
+body{
+	background-color: #222222;
+	color: #FFFFFF;
+	font-family: verdana;
+	text-align: center;
+}
+
+.big {
+	font-size: 60px;
+}

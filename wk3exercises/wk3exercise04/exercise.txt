@@ -1,0 +1,3 @@
+Make the h1 on the page clickable. When the user clicks on it, the text of the h1 should change to 'You clicked me' and the h1 should get the class 'highlight'.
+ 
+

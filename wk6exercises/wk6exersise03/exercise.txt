@@ -1,0 +1,8 @@
+Use the code from the previous example and add an popup (info window) when clicking on the marker.
+
+The popup copy can be filled with these three sentences:
+
+"The Hawaiian Islands is a travel destination that appears on almost every persons bucket list. Often known as a luxury destination, Hawaii can very much be enjoyed on a budget. Hawaii is warm year-round and most popular during the winter months, when surfing conditions are optimal and whales travel offshore."
+
+You also can add HTML in the modal window. Please add an image from the image folder. The image is named "hawaii.jpg". The styling is already set for you in the CSS folder, so it floats nicely next to the copy.
+

@@ -1,0 +1,6 @@
+Use the template for this exercise. Define a function that calculates your EU shoe size according to the length of the foot in cm. This function should have a parameter named footLength and should show the result of the calculation in an alertbox. Use the following formula to calculate the shoe size:
+
+shoeSize = (footLength + 2) * 1.5
+
+
+Outside of the function definition, create two variables. One contains the length of your feet and the other contains the foot length of a classmate. now call the function twice, once with your foot length as an argument and once with your classmate’s.

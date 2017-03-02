@@ -1,0 +1,5 @@
+Use the template for this exercise. In the JavaScript file, make two new variables named number1 and number2 and assign the value 5 to both variables. 
+
+Create an if-statement that only shows an alertbox when variables number1 and number2 are equal to each other. The alert box should contain the following text: “x is equal to y”. If the two numbers aren’t equal, the text “x is not  equal to y” should appear. Here x and y should be replaced by the values of variables number1 and number2 respectively. 
+
+Test your code in the browser. Change the values of the variables to see a change in result.

@@ -1,0 +1,9 @@
+Use the template for this exercise. Define a function that calculates the temperature in celsius according to the temperature in fahrenheit. This function should have a parameter named Fahrenheit and should return the temperature in celsius. Use the following formula:
+
+celsius = (fahrenheit -32) / 1.8
+
+
+
+Outside of the function definition, write the code that shows a message in an alert box for different temperature ranges. If the temperature is lower than 10C the message is ‘Damn, it’s cold’. If te temperature is higher than 22C the message is ‘Damn, it’s hot’. In all other cases the message is ‘Temperature is nice’.
+
+Make sure you call the function and give it a temperature in fahrenheit as an argument.

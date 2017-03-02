@@ -1,0 +1,4 @@
+Use the template you made for this exercise. In the JavaScript file, make two new variables named firstName and age and assign your name and age as their value.
+
+Create an alert box that shows the message “My name is x and I am y years old” where x and y are substituted with the value of the variables firstName and age. Use the plus-sign (+) to combine the texts and values.
+

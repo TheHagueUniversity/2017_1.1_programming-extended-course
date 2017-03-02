@@ -1,0 +1,1 @@
+Create a timer thats counts down the seconds. Add an input so the user can fill in a number the timer should start at and a button to start it.

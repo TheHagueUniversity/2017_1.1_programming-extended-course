@@ -1,0 +1,1 @@
+Make a timer thats counts down the seconds starting at 10. Once the timers hits 0 the text on the page should say 'Lift Off'.

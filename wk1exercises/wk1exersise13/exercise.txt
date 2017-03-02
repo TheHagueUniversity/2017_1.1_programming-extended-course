@@ -1,0 +1,18 @@
+Use the template for this exercise. Create a piece of code that incorporates a while-loop or a for-loop. it should show the following messages on the screen. each line should be in it’s own alertbox.
+
+- Launch in T minus
+- 10
+- 9
+- 8
+- 7
+- 6
+- 5
+- 4
+- 3
+- 2
+- 1
+- 0
+- ... Blast off!!!
+
+
+tip: only the countdown part is achieved by looping. The first and last line are separate lines of code.

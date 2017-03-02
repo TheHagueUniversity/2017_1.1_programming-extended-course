@@ -1,0 +1,1 @@
+Recreate the image. Create a HTML-file with the appropriate html5 tags. No CSS is needed for this exercise. The head should contain a title and the body should contain a h1-tag. At the end of the body, include a script that show an alertbox containing the text “IT works!”. 

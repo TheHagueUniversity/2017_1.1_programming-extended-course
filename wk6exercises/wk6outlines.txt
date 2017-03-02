@@ -1,0 +1,20 @@
+
+<< Week 6 >>
+
+- Introduction APIs
+	- Application Programming Interface
+	- Endpoints
+	- Most of the time with APP identifier and APP secret as credentials
+	- Show API end point example (e.g. http://api.openweathermap.org/data/2.5/weather?&units=metric&q=Amsterdam,nl&APPID=768485bc32a1178532a96d7a6f81be47 or http://graph.facebook.com/http://hhs.nl)
+	- So many APIs: https://rapidapi.com/
+	- SDK or API? Explain finding and reading documentation, show https://openweathermap.org/current or https://developers.facebook.com/docs/ 
+	- Different kind of request types (GET, POST, DELETE, etc.)
+	
+- Google Maps API
+	- Inspiration video, made with API connection: https://vimeo.com/63653873
+	- Geocode and reverse geocode any address or region.
+	- Create interactive map, place markers
+	- Process of initializing their API, create a key, etc.
+	- 
+
+- https://www.google.co.za/maps/space/mars/@-4.5915089,137.4499303,227a,20y,339.77h,45t/data=!3m1!1e3

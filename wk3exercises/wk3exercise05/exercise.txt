@@ -1,0 +1,3 @@
+Exercise3 contained a function that can check if a lottery number is the winning number. Extend the HTML so it has an input, a button and an empty paragraph element. Make sure to give these new elements id's. Then rewrite the JavaScript so when the user enters his lottery number and presses the button, his lottery number is checked and an appropriate message is shown in the paragraph.
+ 
+
