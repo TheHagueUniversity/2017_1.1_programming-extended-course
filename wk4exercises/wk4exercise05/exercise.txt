@@ -1,0 +1,10 @@
+
+Create a animation for the modal (popup) with a global timeline. 
+
+Bind an onclick event to the button and call a new function that shows the popup. You can use display property of 'block' on the modal background. Modal content should animate to a full opacity and have a new margin-top of 15%. 
+
+After clicking the close button the popup fades into the back and scales to 0. Then the modal background goes to display of 'none'. Use a seperate close function. All the tweens can be 0.5 seconds in length. 
+
+Create another function that resets the values of the modal and its content. This way you can click the button multible times. This function is called after the close animation is completed.
+
+

@@ -1,0 +1,31 @@
+body {
+	font-family: Helvetica;
+	font-size: 1.5em;
+	color: #fff;
+	background-color: #fff;
+}
+
+nav ul {
+	margin: 100px auto;
+	padding: 0;
+	width: 350px;
+	list-style: none;
+}
+nav ul li {
+	margin: 0;
+	padding: 0;
+}
+
+a.menu {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 5px solid #f2f2f2;
+	border-radius: 20px;
+	background: #333;
+}
+
+a.menu:hover {
+	background: #444;
+}

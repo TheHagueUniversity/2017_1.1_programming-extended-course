@@ -1,4 +1,2 @@
 
-Create a live-like bouncing and rotating ball on the floor. The ball bounces to the top, then falls back to the ground floor and travels for 400 pixels to the right while bouncing. 
-
-You need to put your code in the existing play function and use the function call back and the end of the timeline.
+Create 

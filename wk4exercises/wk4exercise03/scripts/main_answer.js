@@ -1,31 +1,28 @@
-// init ball
-var ball = document.getElementById('ball');
 
-function play() {
-	
-	// set starting position
-	TweenMax.set(ball, { y: 500 });
+// define global variables
+var pos = 300,
+	timeline = new TimelineMax({ repeat: -1, ease: Power1.easeInOut });
 
-	// init timeline
-	var timeline = new TimelineMax({ delay: 1 });
+// floating in space
+timeline.to('#sandy', 1, { top: 105 })
+		.to('#sandy', 1, { top: 100 });
 
-	// go up 
-	timeline.to(ball, 0.5, { y: 0 })
+// bind events
+document.getElementById('leftButton').onmousedown = function() {
+	pos -= 80;	
+	updateSprite();
+};
 
-	// go right and bounce
-	.to(ball, 1, { y: 500, ease: Bounce.easeOut})
-	.to(ball, 3, { x: '+=400'}, '-=2')
+document.getElementById('rightButton').onmousedown = function() {
+	pos += 80;
+	updateSprite();
+};
 
-	// go back
-	.to(ball, 1, { x: 0 }, '+=1')
-
-	// rotate
-	.to(ball, 3, { rotation: 300 }, 0)
-	.to(ball, 1, { rotation: -60 }, 4)
-
-	// play again
-	.call(play);
+// update position and animate
+function updateSprite(){
+	TweenMax.to('#sandy', 1, { 
+		left: pos, 
+		ease: Power2.easeInOut 
+	});
 }
 
-// start function
-play();

@@ -1,28 +1,31 @@
+// init ball
+var ball = document.getElementById('ball');
 
-// set the timeline
-var timeline = new TimelineMax();
+function play() {
+	
+	// set starting position
+	TweenMax.set(ball, { y: 500 });
 
-// bind events
-document.getElementById('open').onclick = function() {
-	open();
-};
+	// init timeline
+	var timeline = new TimelineMax({ delay: 1 });
 
-document.getElementById('close').onclick = function() {
-	close();
-};
+	// go up 
+	timeline.to(ball, 0.5, { y: 0 })
 
-// set functions
-function open() {
-	timeline.to('.modal', 0.5, { display: 'block'})
-			.to('.modal-content', 0.5, { marginTop: '15%', opacity: 1 });
+	// go right and bounce
+	.to(ball, 1, { y: 500, ease: Bounce.easeOut})
+	.to(ball, 3, { x: '+=400'}, '-=2')
+
+	// go back
+	.to(ball, 1, { x: 0 }, '+=1')
+
+	// rotate
+	.to(ball, 3, { rotation: 300 }, 0)
+	.to(ball, 1, { rotation: -60 }, 4)
+
+	// play again
+	.call(play);
 }
 
-function close() {
-	timeline.to('.modal-content', 0.5, { scale: 0, opacity: 0 })
-			.to('.modal', 0.5, { display: 'none'})
-			.call(reset);
-}
-
-function reset() {	
-	TweenMax.set('.modal-content', { scale: 1 , marginTop: '-100%'});
-}
+// start function
+play();

@@ -1,0 +1,23 @@
+body {
+	font-family: Helvetica;
+	font-size: 1.5em;
+	color: #fff;
+	background-color: #fff;
+}
+
+nav ul {
+	margin: 100px auto;
+	width: 450px;
+	list-style: none;
+}
+nav ul li {
+
+}
+
+a.menu {
+	display: block;
+	padding: 10px 20px;
+	color: #111;
+	text-decoration: none;
+	border-bottom: 5px solid #f2f2f2;
+}

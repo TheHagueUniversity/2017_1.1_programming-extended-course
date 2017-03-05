@@ -10,7 +10,7 @@ var doOutAnim = function() {
 };
 
 var nodes = document.getElementsByClassName('menu');
-for(var i=0; i<nodes.length; i++){
+for(var i=0; i<nodes.length; i++) {
 	nodes[i].onmouseenter = doEnterAnim;
 	nodes[i].onmouseout = doOutAnim;
 }
