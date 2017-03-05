@@ -1,6 +1,22 @@
 
 body {
 	font-family: Helvetica;
-	color: #FFFFFF;
-	background-color: #444444;
+	color: #111;
+	background-color: #e2e2e2;
+}
+
+.container {
+	width: 920px;
+	margin: 100px auto;
+	border: 20px dashed #ffd700;
+	background-color: #ccc;
+	overflow: hidden;
+}
+
+h1 {
+	right: -920px;
+	font-size: 40px;
+	position: relative;
+	padding: 20px;
+	text-transform: uppercase;
 }

@@ -1,0 +1,23 @@
+
+body {
+	font-family: Helvetica;
+	color: #111;
+	background-color: #9ec3ff;
+	overflow: hidden;
+	margin: 0;
+}
+
+.clouds {
+	position: absolute;
+	z-index: 4;
+	top: 20%;
+	width: 100%;
+	height: 341px;
+	background: url('../images/clouds.png') repeat;
+	opacity: 0;
+}
+
+.clouds.layer-2 { 
+	top: 40%;
+	z-index: 2;
+}

@@ -1,0 +1,2 @@
+
+Create a popup animation. On start let the alert box fall into place from the top. After clicking the close button (X) the popup fades into back.
