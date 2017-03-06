@@ -6,12 +6,12 @@ var timeline = new TimelineMax();
 document.getElementById('boom').onclick = function() {
 
 	for (var i = 0; i < 8; i++) {
-		explodeLetters(i);
+		explodeLetter(i);
 	}
 };
 
 // set function
-function explodeLetters(number) {
+function explodeLetter(number) {
 
 	// set random sizes
 	var randomX = Math.floor(Math.random() * 800),

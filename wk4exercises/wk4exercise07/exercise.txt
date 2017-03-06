@@ -1,0 +1,11 @@
+Recreate the exploding letters from the video tutorials, but then with a reusable function. 
+
+Loop through all the 8 letters.
+
+Make a reusable function the can explode one letter at a time called "explodeLetter". The function used the current number in the loop as a parameter. 
+
+Use "explode0" plus the current number to target the class of a letter.
+
+Use random sizes for the generation of the letters. When clicking the button the letters first scale 3 times and become the color yellow.
+
+After 1 second the letter explode with a rotation of -360 ease Power2.EaseOut and 6x scaling, becoming the color red.

@@ -1,0 +1,11 @@
+We are going to add some extra effects on the buttons. Create two variables that contain the enter and out animations. 
+
+The MOUSEENTER effect is:
+marginLeft: 20, color: '#33AA33', ease: Elastic.easeOut.config(1, 0.3)
+
+The MOUSEOUT effect is:
+marginLeft: 0, color: '#FFFFFF', ease: Bounce.easeOut
+
+Both last for 0.5 seconds.
+
+The get all the elements by their class name and bind the onmouseenter and onmouseout events to the to functions.

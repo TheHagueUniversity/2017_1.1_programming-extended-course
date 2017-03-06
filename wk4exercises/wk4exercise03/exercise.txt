@@ -1,2 +1,2 @@
 
-Create 
+This one you had in class. Make the buttons "Go left" and "Go right" work. Bind the onclick events and add or subtract 80 when clicking the buttons. Update the image position (using left) and animate it using the "Power2.easeInOut" easing function.

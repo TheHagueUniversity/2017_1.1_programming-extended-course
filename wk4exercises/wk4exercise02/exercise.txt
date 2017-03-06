@@ -1,5 +1,5 @@
 
-Create an paralax cloud animation using the TweenMax library. The clouds have to be part of a shared timeline. The clouds div with the lowest z-index has to move slower. Please use the most linear easing function.
+Create an paralax cloud animation using the TweenMax library. The clouds have to be part of a shared timeline. The clouds div with the lowest z-index has to move slower behind the other cloud layer. Please use the most linear easing function.
 
 First make the clouds appear by changing the opacity value in 1 second. 
 The div with the class name "layer-1" has to move to a background-x position of 2400 in 200 seconds. 
