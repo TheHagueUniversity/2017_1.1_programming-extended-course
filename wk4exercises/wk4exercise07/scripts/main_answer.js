@@ -14,18 +14,17 @@ document.getElementById('boom').onclick = function() {
 function explodeLetter(number) {
 
 	// set random sizes
-	var randomX = Math.floor(Math.random() * 800),
-		randomY = Math.floor(Math.random() * 300),
-		plusOrMinus = Math.random() < 0.5 ? '-' : '+';
-
+	var randomX = Math.floor(Math.random() * 1600) -800;
+	var randomY = Math.floor(Math.random() * 600) -300;
+		
 	timeline.to('.letter', 1, { 
 		scale: 3, 
 		color: 'yellow', 
 		margin: 20 
 	})
 	.to('.explode0'+ number, 1, { 
-		y: plusOrMinus +'='+ randomY, 
-		x: plusOrMinus +'='+ randomX, 
+		y: '+='+ randomY, 
+		x: '+='+ randomX, 
 		rotation: -360, 
 		ease: Power2.EaseOut, 
 		scale: 6,
