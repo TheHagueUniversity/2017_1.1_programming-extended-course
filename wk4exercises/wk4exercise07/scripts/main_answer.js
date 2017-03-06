@@ -17,10 +17,6 @@ function explodeLetters(number) {
 	var randomX = Math.floor(Math.random() * 1600) -800;
 	var randomY = Math.floor(Math.random() * 600) -300;
 		
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 	timeline.to('.letter', 1, { 
 		scale: 3, 
 		color: 'yellow', 
