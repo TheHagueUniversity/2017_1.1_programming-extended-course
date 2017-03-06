@@ -13,13 +13,13 @@ document.getElementById('close').onclick = function() {
 
 // set functions
 function open() {
-	timeline.to('.modal', 0.5, { display: 'block'})
+	timeline.to('.modal', 0, { display: 'block'})
 			.to('.modal-content', 0.5, { marginTop: '15%', opacity: 1 });
 }
 
 function close() {
 	timeline.to('.modal-content', 0.5, { scale: 0, opacity: 0 })
-			.to('.modal', 0.5, { display: 'none'})
+			.to('.modal', 0, { display: 'none'})
 			.call(reset);
 }
 
