@@ -1,0 +1,4 @@
+
+Add the code from the video tutorial to make the : in between the time integers flash. We helped you a bit and added the function to do this.
+
+
