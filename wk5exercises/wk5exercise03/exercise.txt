@@ -1,4 +1,6 @@
 
-Add the code from the video tutorial to make the : in between the time integers flash. We helped you a bit and added the function to do this.
+Add the code from the video tutorial to make the : in between the time integers flash and toggle on and off each second. We helped you a bit and added the function where you can place the code, return the html needed for the separator and removed the seconds from the clock. 
+
+You must use the same class name "trans" in a <span> element around the seperator.
 
 
