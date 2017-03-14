@@ -7,7 +7,7 @@ function initClock() {
 	var time  = getCurrentTime(new Date());
 
 	// display time
-	clock.innerHTML = '0:00';
+	clock.innerHTML = '0:00'; // !! your code here
 }
 
 /**
@@ -17,6 +17,8 @@ function initClock() {
  */
 function getCurrentTime(date) {
 	var time = [];
+
+	// !! your code here
 
 	return time;
 }

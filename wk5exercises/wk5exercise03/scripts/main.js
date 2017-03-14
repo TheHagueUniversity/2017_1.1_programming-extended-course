@@ -29,7 +29,7 @@ function renderClock() {
  * @return string
  */
 function flashSeperator(seconds) {
-	// your code here
+	// !! your code here
 }
 
 /**

@@ -1,5 +1,5 @@
 
-We are extending the clock with the current day and month. There are two extra span elements edited to do this. Please change the code in a way that it shows the time in #time and the day in #date. The stlying is taken care of.
+We are extending the clock with the current day and month. There are two extra span elements edited to do this. Please change the code in a way that it shows the time in #time and the day in #date. The styling is taken care of.
 
 Write your own seperate function to get the current month and display the current month in text. You may use the following array:
 
