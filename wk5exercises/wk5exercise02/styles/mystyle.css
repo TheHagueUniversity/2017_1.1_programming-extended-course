@@ -11,6 +11,7 @@ body {
 	background-color: #ccc;
 	overflow: hidden;
 	text-align: center;
+	border-radius: 20px;
 }
 
 h1 {
