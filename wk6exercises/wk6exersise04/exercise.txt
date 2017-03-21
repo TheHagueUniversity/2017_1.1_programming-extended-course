@@ -2,11 +2,11 @@ Use the code from the previous example and add new locations;
 'Midway Atoll'
 'Necker Island'
 
-Make sure the map in zoomed so both markers are visible. They new center location can be: 
+Make sure the map in zoomed so both markers are visible. They new center location can be: lat: 24, lng: -168
 
 Also add a info window for each new location. 
 
-The copy for the window:
+The copy for the popup windows:
 
 "Midway Atoll is part of a chain of volcanic islands, atolls, and seamounts extending from Hawaii up to the tip of the Aleutian Islands. Approximately 40 to 60 people live on the atoll, which includes staff of the US Fish and Wildlife Service and contract workers"
 
@@ -15,7 +15,7 @@ The copy for the window:
 We also can add HTML in the window. Please add an image from the image folder. The image is named "midway.jpg" and "necker.jpg". The styling is already set for you in the CSS folder, so it floats nicely next to the copy.
 
 Tips:
-- Use separate functions to separate the functionality and make it more usable
+- Use small functions to separate the functionality and make it more usable
 - Use an array to save all the data and loop through the location data. 
 
 

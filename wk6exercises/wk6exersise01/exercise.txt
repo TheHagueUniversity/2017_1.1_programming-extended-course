@@ -1,2 +1,2 @@
-Use the template for this exercise. Generate API-key. Create your first Google map. Find the coordinates of the Island of Hawaii and point the map towards the islands. The zoom level should be 7.
+Use the template for this exercise. Generate API-key. Create your first Google map. Embed the API script tag with key. Find the coordinates of the Island of Hawaii and point the map towards the islands. The zoom level should be 7.
 

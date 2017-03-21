@@ -1,21 +1,30 @@
 
-// on page load show map
+/**
+ * On load start map
+ */
 document.onload = function() {
 	initMap();
 };
 
+/**
+ * Initialize map
+ */
 function initMap() {
 
 	// set pointer coordinates 
 	var map = new google.maps.Map(document.getElementById('map'), {
 		center: {lat: 24, lng: -168},
-		zoom: 5,
-		mapTypeId: google.maps.G_MARS_VISIBLE_MAP
+		zoom: 5
 	});
 
 	addMarkers(map);
 }
 
+/**
+ * Add some markers
+ *
+ * @param Google map Object
+ */
 function addMarkers(map) {
 	// get all locations	
 	var locations = getLocationArray();
@@ -33,6 +42,14 @@ function addMarkers(map) {
 	}
 }
 
+/**
+ * Add single marker
+ *
+ * @param Google map object
+ * @param Coordinates object
+ * @param Title string
+ * @return Marker object
+ */
 function addMarker(map, mapCoordinates, title) {
 	return new google.maps.Marker({
 		position: mapCoordinates,
@@ -41,6 +58,12 @@ function addMarker(map, mapCoordinates, title) {
 	});
 }
 
+/**
+ * Add info popup
+ *
+ * @param popupContent string
+ * @return InfoWindow object
+ */
 function addInfoWindow(popupContent) {
 	return new google.maps.InfoWindow({
 		content: popupContent,
@@ -48,12 +71,24 @@ function addInfoWindow(popupContent) {
 	});
 }
 
+/**
+ * Add Google maps listener
+ *
+ * @param Google map object
+ * @param Marker object
+ * @param InfoWindow object
+ */
 function addListener(map, marker, infowindow) {
 	marker.addListener('click', function() {
 		infowindow.open(map, marker);
 	});
 }
 
+/**
+ * Get all locations 
+ *
+ * @return Locations array
+ */
 function getLocationArray() {
 
 	var locations = [];
