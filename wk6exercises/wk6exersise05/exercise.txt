@@ -1,0 +1,2 @@
+
+Using our previous code, we are going to add some Hawaiian vibe to the water. Please change the water color to #1d9dd3 and load the color JSON in a separate function.
