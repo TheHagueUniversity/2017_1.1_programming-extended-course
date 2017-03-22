@@ -1,0 +1,7 @@
+
+Using our previous code, we are going to add some icons as markers. Please use a separate function to get the images in an array. The images are in order:
+
+'images/cocktail.png',
+'images/ball.png', 
+'images/surf.png'
+
