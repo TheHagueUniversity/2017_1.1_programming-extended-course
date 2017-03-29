@@ -61,7 +61,7 @@ function updateUIError() {
 function getWeatherIcon(icon) {
 	var iconUrl = 'http://openweathermap.org/img/w/'+ icon +'.png';
 
-	return '<img src="'+ iconUrl +'" alt="'+ type +'">';
+	return '<img src="'+ iconUrl +'" alt="Weather icon">';
 }
 
 // init request
