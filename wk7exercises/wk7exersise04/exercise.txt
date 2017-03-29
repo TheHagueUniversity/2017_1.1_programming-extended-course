@@ -1,3 +1,1 @@
 Please extend the previous code and show an icon with the current weather. Create a new function that gets the image icon file for you. In must be injected after the weather message in #weather div.
-
-You can use the "condition" response field as the image name. Please note it has to be in lowercase (see /images folder for the precise file names).

@@ -34,12 +34,13 @@ function updateUISuccess(responseText) {
 	// set data
 	var response = JSON.parse(httpRequest.responseText);
 	var condition = response.weather[0].main;
+	var icon = response.weather[0].icon;
 
 	// get weather Icon
-	var weatherIcon = getWeatherIcon(condition);
+	var weatherIconImage = getWeatherIcon(icon);
 
 	// show weather
-	weatherBox.innerHTML = Math.floor(response.main.temp) + '&#176; C<br>' + condition +'<br>'+ weatherIcon;
+	weatherBox.innerHTML = Math.floor(response.main.temp) + '&#176; C<br>' + condition +'<br>'+ weatherIconImage;
 
 	// reset class name
 	weatherBox.className = '';
@@ -54,12 +55,13 @@ function updateUIError() {
 }
 
 /**
- * Handle error
+ * Get Weather icon
+ * @param render Icon
  */
-function getWeatherIcon(weatherType) {
-	var type = weatherType.toLowerCase();
+function getWeatherIcon(icon) {
+	var iconUrl = 'http://openweathermap.org/img/w/'+ icon +'.png';
 
-	return '<img src="images/icon-'+ type +'.png" alt="'+ type +'">';
+	return '<img src="'+ iconUrl +'" alt="'+ type +'">';
 }
 
 // init request
