@@ -2,7 +2,7 @@
 // open request
 var request = new XMLHttpRequest();
 
-// get the cats
+// get the copy
 request.open('GET', 'http://hipsterjesus.com/api/?paras=10');
 
 /**
@@ -13,7 +13,7 @@ request.onreadystatechange = function() {
 	// when the request in done show everything
 	if ((request.readyState === 4) && (request.status === 200)) {
 
-		// pase JSON items
+		// parse JSON
 		var response = JSON.parse(request.responseText);
 
 		// write into the DOM
