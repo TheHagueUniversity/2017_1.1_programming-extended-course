@@ -1,0 +1,12 @@
+We are going to get the local The Hague weather using the openweathermap.org API. Please create your own API key first. 
+
+Because the API request in Asyncronous and can fail we need to add a error functionality that hides the container if the request is not done.
+
+Please use the following function names to create a solid structure within your code.
+
+makeRequest
+responseMethod
+updateUISuccess
+updateUIError
+
+The HTML and CSS are already in place. 

@@ -3,7 +3,7 @@
 var request = new XMLHttpRequest();
 
 // get the copy
-request.open('GET', 'http://thecatapi.com/api/images/get?format=xml&results_per_page=10');
+request.open('GET', 'http://thecatapi.com/api/images/get?format=xml&results_per_page=12');
 
 /**
  * Check when the request is done
