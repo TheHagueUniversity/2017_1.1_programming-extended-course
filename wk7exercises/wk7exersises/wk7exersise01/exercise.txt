@@ -1,0 +1,10 @@
+Use the XMLHttpRequest() function to GET and read Hipster copy from the API end point below. 
+
+End-point:
+--
+http://hipsterjesus.com/api/?paras=10
+--
+
+Display this the returned "text" object of the respons in the div with ID name "text".
+
+Note that the XMLHttpRequest function does not need the old IE compatibility code. Just use the function directly.

@@ -1,0 +1,15 @@
+Use the XMLHttpRequest() function to GET and search articles on the Wikipedia page. The precise function to get articles by search string is:
+
+--
+https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=xxx
+--
+
+Replace the xxx with the search value of the input box that the user fills out. Please inject the results in the ul with the ID "hits" as <li> elements.
+
+The title must be clickable. You can use the ID in the URL as follows and deep-link to the page found. Replace the curid value with the ID.
+
+--
+https://en.wikipedia.org/?curid=1461217
+--
+
+The HTML/CSS are in place and you don't have to change it.
